@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Pacifico&display=swap');
+
+body {
+   overflow-y: scroll;
+   overflow-x: hidden;
+   font-family: 'Bree Serif', serif;
+   color: #6c7a86;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.navbar {
+   font-family: 'Bree Serif', serif;
+   font-weight: 400;
+   font-size: 1rem;
+   letter-spacing: .1rem; 
+   background: rgba(0, 0, 0, 0.8)!important;
+}
+
+.navbar-brand {
+   margin: .3rem;
+}
+
+.navbar-nav li {
+   padding-right: .5rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+   color: white;
+   padding-top: .5rem;
+}
+
+.navbar-dark .navbar-nav .nav-link:active, .navbar-dark .navbar-nav .nav-link:hover {
+   color: #1167b1;
+}
+
+h2.title{
+	margin-bottom: 20px;
+	color: #6c7a86;
+	font-family: 'Bree Serif', serif;
+	text-transform: uppercase;
+	font-size: 38px;
+	word-spacing: 25px;
+	letter-spacing: 5px;
+}
+
+.carousel {
+   margin: 5rem;
+   padding: 0;
+}
+
+.carousel-inner img {
+   margin: auto;
+   width: 100%;
+   object-fit: contain;
+}
+
+footer {
+   background-color: black;
+   color: white;
+   padding: 2rem 2rem;
+}
+
+footer p {
+   font-weight: 200;
+   font-size: .9rem;
+   text-align: center;
+}
+
+footer a {
+   color: white;
+}
+
+hr.socket {
+   width: 100%;
+   border-top: .1rem solid #6c7a86;
+   margin-top: 3rem;
+}
+
+.map-container-2 {
+   overflow: hidden;
+   padding-bottom: 0;
+   position: relative;
+   height: 0;
+}
+
+.map-container-2 iframe {
+   left: 0;
+   top: 0;
+   height: 100%;
+   width: 100%;
+   position: absolute;
+}
+
+p {
+  text-align: justify;
+}
+
+#product {
+   background-color: #1167b1;
+}
+
+#product h2 {
+   color: white;
+}
+
+#product p {
+   color: white;
+   text-align: center;
+}
+
+#review {
+   background-color: #FFCB15;
+}
+
+#review h2 {
+   color: white;
+}
+
+#review p {
+   text-align: center;
+   color: white;
+}
+
+
+#background {
+   background-color: #1167b1;
+}
+
+#background h2, h5 {
+   color: white;
+}
+
+#background p {
+   color: white;
+}
+
+#location {
+   background-color: #FFCB15;
+}
+
+#location h2 {
+   color: white;
+}
+
+#location p {
+   text-align: center;
+   color: white;
+}
